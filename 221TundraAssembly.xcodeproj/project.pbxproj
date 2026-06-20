@@ -3,33 +3,111 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3022EB402FE6B21500847CF8 /* focusnest-focus-illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB232FE6B21500847CF8 /* focusnest-focus-illustration.png */; };
+		3022EB412FE6B21500847CF8 /* focusnest-habits-illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB242FE6B21500847CF8 /* focusnest-habits-illustration.png */; };
+		3022EB422FE6B21500847CF8 /* focusnest-tasks-illustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB252FE6B21500847CF8 /* focusnest-tasks-illustration.png */; };
+		3022EB432FE6B21500847CF8 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB272FE6B21500847CF8 /* privacy_policy.md */; };
+		3022EB442FE6B21500847CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB372FE6B21500847CF8 /* Assets.xcassets */; };
+		3022EB462FE6B21500847CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB3B2FE6B21500847CF8 /* LaunchScreen.storyboard */; };
+		3022EB472FE6B21500847CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3022EB3D2FE6B21500847CF8 /* Main.storyboard */; };
+		3022EB482FE6B21500847CF8 /* AchievementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EAFC2FE6B21500847CF8 /* AchievementDefinition.swift */; };
+		3022EB492FE6B21500847CF8 /* FocusSessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EAFD2FE6B21500847CF8 /* FocusSessionRecord.swift */; };
+		3022EB4A2FE6B21500847CF8 /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EAFE2FE6B21500847CF8 /* HabitItem.swift */; };
+		3022EB4B2FE6B21500847CF8 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EAFF2FE6B21500847CF8 /* TaskItem.swift */; };
+		3022EB4C2FE6B21500847CF8 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB012FE6B21500847CF8 /* AppStorage.swift */; };
+		3022EB4D2FE6B21500847CF8 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB032FE6B21500847CF8 /* AppExternalLink.swift */; };
+		3022EB4E2FE6B21500847CF8 /* AppIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB042FE6B21500847CF8 /* AppIllustration.swift */; };
+		3022EB4F2FE6B21500847CF8 /* FeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB052FE6B21500847CF8 /* FeedbackManager.swift */; };
+		3022EB502FE6B21500847CF8 /* HabitScheduleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB062FE6B21500847CF8 /* HabitScheduleHelper.swift */; };
+		3022EB512FE6B21500847CF8 /* NotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB072FE6B21500847CF8 /* NotificationNames.swift */; };
+		3022EB522FE6B21500847CF8 /* FocusCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB0A2FE6B21500847CF8 /* FocusCycleView.swift */; };
+		3022EB532FE6B21500847CF8 /* FocusCycleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB0B2FE6B21500847CF8 /* FocusCycleViewModel.swift */; };
+		3022EB542FE6B21500847CF8 /* FocusSessionSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB0C2FE6B21500847CF8 /* FocusSessionSheets.swift */; };
+		3022EB552FE6B21500847CF8 /* HabitLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB0E2FE6B21500847CF8 /* HabitLogView.swift */; };
+		3022EB562FE6B21500847CF8 /* HabitLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB0F2FE6B21500847CF8 /* HabitLogViewModel.swift */; };
+		3022EB572FE6B21500847CF8 /* DailyPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB112FE6B21500847CF8 /* DailyPlanView.swift */; };
+		3022EB582FE6B21500847CF8 /* HomeIllustrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB122FE6B21500847CF8 /* HomeIllustrations.swift */; };
+		3022EB592FE6B21500847CF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB132FE6B21500847CF8 /* HomeView.swift */; };
+		3022EB5A2FE6B21500847CF8 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB142FE6B21500847CF8 /* HomeWidgets.swift */; };
+		3022EB5B2FE6B21500847CF8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB162FE6B21500847CF8 /* OnboardingView.swift */; };
+		3022EB5C2FE6B21500847CF8 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB182FE6B21500847CF8 /* PrivacyPolicyView.swift */; };
+		3022EB5D2FE6B21500847CF8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB192FE6B21500847CF8 /* SettingsView.swift */; };
+		3022EB5E2FE6B21500847CF8 /* HabitCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB1B2FE6B21500847CF8 /* HabitCalendarView.swift */; };
+		3022EB5F2FE6B21500847CF8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB1C2FE6B21500847CF8 /* StatsView.swift */; };
+		3022EB602FE6B21500847CF8 /* WeeklyInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB1D2FE6B21500847CF8 /* WeeklyInsightsView.swift */; };
+		3022EB612FE6B21500847CF8 /* TaskTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB1F2FE6B21500847CF8 /* TaskTrackerView.swift */; };
+		3022EB622FE6B21500847CF8 /* TaskTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB202FE6B21500847CF8 /* TaskTrackerViewModel.swift */; };
+		3022EB632FE6B21500847CF8 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB292FE6B21500847CF8 /* CustomCells.swift */; };
+		3022EB642FE6B21500847CF8 /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB2B2FE6B21500847CF8 /* AppVisualStyle.swift */; };
+		3022EB652FE6B21500847CF8 /* DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB2C2FE6B21500847CF8 /* DesignComponents.swift */; };
+		3022EB662FE6B21500847CF8 /* AchievementBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB2E2FE6B21500847CF8 /* AchievementBannerView.swift */; };
+		3022EB672FE6B21500847CF8 /* AppBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB2F2FE6B21500847CF8 /* AppBackgroundView.swift */; };
+		3022EB682FE6B21500847CF8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB302FE6B21500847CF8 /* CustomTabBar.swift */; };
+		3022EB692FE6B21500847CF8 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB312FE6B21500847CF8 /* ShakeEffect.swift */; };
+		3022EB6A2FE6B21500847CF8 /* SuccessCheckmarkOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB322FE6B21500847CF8 /* SuccessCheckmarkOverlay.swift */; };
+		3022EB6B2FE6B21500847CF8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB342FE6B21500847CF8 /* MainTabView.swift */; };
+		3022EB6C2FE6B21500847CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB362FE6B21500847CF8 /* AppDelegate.swift */; };
+		3022EB6D2FE6B21500847CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB382FE6B21500847CF8 /* ContentView.swift */; };
+		3022EB6E2FE6B21500847CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EB3E2FE6B21500847CF8 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0B2A96569985749D1C2CF017 /* Pods-221TundraAssembly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-221TundraAssembly.debug.xcconfig"; path = "Target Support Files/Pods-221TundraAssembly/Pods-221TundraAssembly.debug.xcconfig"; sourceTree = "<group>"; };
 		3022E9B42FE5837000847CF8 /* 221TundraAssembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 221TundraAssembly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3022EAFC2FE6B21500847CF8 /* AchievementDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDefinition.swift; sourceTree = "<group>"; };
+		3022EAFD2FE6B21500847CF8 /* FocusSessionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionRecord.swift; sourceTree = "<group>"; };
+		3022EAFE2FE6B21500847CF8 /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+		3022EAFF2FE6B21500847CF8 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		3022EB012FE6B21500847CF8 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		3022EB032FE6B21500847CF8 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		3022EB042FE6B21500847CF8 /* AppIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIllustration.swift; sourceTree = "<group>"; };
+		3022EB052FE6B21500847CF8 /* FeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackManager.swift; sourceTree = "<group>"; };
+		3022EB062FE6B21500847CF8 /* HabitScheduleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitScheduleHelper.swift; sourceTree = "<group>"; };
+		3022EB072FE6B21500847CF8 /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
+		3022EB0A2FE6B21500847CF8 /* FocusCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCycleView.swift; sourceTree = "<group>"; };
+		3022EB0B2FE6B21500847CF8 /* FocusCycleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCycleViewModel.swift; sourceTree = "<group>"; };
+		3022EB0C2FE6B21500847CF8 /* FocusSessionSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionSheets.swift; sourceTree = "<group>"; };
+		3022EB0E2FE6B21500847CF8 /* HabitLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLogView.swift; sourceTree = "<group>"; };
+		3022EB0F2FE6B21500847CF8 /* HabitLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLogViewModel.swift; sourceTree = "<group>"; };
+		3022EB112FE6B21500847CF8 /* DailyPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanView.swift; sourceTree = "<group>"; };
+		3022EB122FE6B21500847CF8 /* HomeIllustrations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIllustrations.swift; sourceTree = "<group>"; };
+		3022EB132FE6B21500847CF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3022EB142FE6B21500847CF8 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		3022EB162FE6B21500847CF8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3022EB182FE6B21500847CF8 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		3022EB192FE6B21500847CF8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3022EB1B2FE6B21500847CF8 /* HabitCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCalendarView.swift; sourceTree = "<group>"; };
+		3022EB1C2FE6B21500847CF8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		3022EB1D2FE6B21500847CF8 /* WeeklyInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyInsightsView.swift; sourceTree = "<group>"; };
+		3022EB1F2FE6B21500847CF8 /* TaskTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTrackerView.swift; sourceTree = "<group>"; };
+		3022EB202FE6B21500847CF8 /* TaskTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTrackerViewModel.swift; sourceTree = "<group>"; };
+		3022EB232FE6B21500847CF8 /* focusnest-focus-illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focusnest-focus-illustration.png"; sourceTree = "<group>"; };
+		3022EB242FE6B21500847CF8 /* focusnest-habits-illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focusnest-habits-illustration.png"; sourceTree = "<group>"; };
+		3022EB252FE6B21500847CF8 /* focusnest-tasks-illustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focusnest-tasks-illustration.png"; sourceTree = "<group>"; };
+		3022EB272FE6B21500847CF8 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		3022EB292FE6B21500847CF8 /* CustomCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		3022EB2B2FE6B21500847CF8 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		3022EB2C2FE6B21500847CF8 /* DesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignComponents.swift; sourceTree = "<group>"; };
+		3022EB2E2FE6B21500847CF8 /* AchievementBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementBannerView.swift; sourceTree = "<group>"; };
+		3022EB2F2FE6B21500847CF8 /* AppBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundView.swift; sourceTree = "<group>"; };
+		3022EB302FE6B21500847CF8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		3022EB312FE6B21500847CF8 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		3022EB322FE6B21500847CF8 /* SuccessCheckmarkOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessCheckmarkOverlay.swift; sourceTree = "<group>"; };
+		3022EB342FE6B21500847CF8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3022EB362FE6B21500847CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3022EB372FE6B21500847CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3022EB382FE6B21500847CF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3022EB392FE6B21500847CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3022EB3A2FE6B21500847CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3022EB3C2FE6B21500847CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3022EB3E2FE6B21500847CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C0107DD96FE919FB5E5710E /* Pods-221TundraAssembly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-221TundraAssembly.release.xcconfig"; path = "Target Support Files/Pods-221TundraAssembly/Pods-221TundraAssembly.release.xcconfig"; sourceTree = "<group>"; };
+		C2452F70ABA04BA34BE891BA /* Pods_221TundraAssembly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_221TundraAssembly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3022E9C62FE5837000847CF8 /* Exceptions for "221TundraAssembly" folder in "221TundraAssembly" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 3022E9B32FE5837000847CF8 /* 221TundraAssembly */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3022E9B62FE5837000847CF8 /* 221TundraAssembly */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				3022E9C62FE5837000847CF8 /* Exceptions for "221TundraAssembly" folder in "221TundraAssembly" target */,
-			);
-			path = 221TundraAssembly;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3022E9B12FE5837000847CF8 /* Frameworks */ = {
@@ -42,11 +120,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F24CB1F02E7026F9DFA5C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B2A96569985749D1C2CF017 /* Pods-221TundraAssembly.debug.xcconfig */,
+				9C0107DD96FE919FB5E5710E /* Pods-221TundraAssembly.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3022E9AB2FE5837000847CF8 = {
 			isa = PBXGroup;
 			children = (
-				3022E9B62FE5837000847CF8 /* 221TundraAssembly */,
+				3022EB3F2FE6B21500847CF8 /* 221TundraAssembly */,
 				3022E9B52FE5837000847CF8 /* Products */,
+				2F24CB1F02E7026F9DFA5C2C /* Pods */,
+				5BE7531F213AD960A07D2A0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +147,212 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3022EB002FE6B21500847CF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3022EAFC2FE6B21500847CF8 /* AchievementDefinition.swift */,
+				3022EAFD2FE6B21500847CF8 /* FocusSessionRecord.swift */,
+				3022EAFE2FE6B21500847CF8 /* HabitItem.swift */,
+				3022EAFF2FE6B21500847CF8 /* TaskItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3022EB022FE6B21500847CF8 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB012FE6B21500847CF8 /* AppStorage.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		3022EB082FE6B21500847CF8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB032FE6B21500847CF8 /* AppExternalLink.swift */,
+				3022EB042FE6B21500847CF8 /* AppIllustration.swift */,
+				3022EB052FE6B21500847CF8 /* FeedbackManager.swift */,
+				3022EB062FE6B21500847CF8 /* HabitScheduleHelper.swift */,
+				3022EB072FE6B21500847CF8 /* NotificationNames.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3022EB092FE6B21500847CF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB002FE6B21500847CF8 /* Models */,
+				3022EB022FE6B21500847CF8 /* Persistence */,
+				3022EB082FE6B21500847CF8 /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3022EB0D2FE6B21500847CF8 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB0A2FE6B21500847CF8 /* FocusCycleView.swift */,
+				3022EB0B2FE6B21500847CF8 /* FocusCycleViewModel.swift */,
+				3022EB0C2FE6B21500847CF8 /* FocusSessionSheets.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		3022EB102FE6B21500847CF8 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB0E2FE6B21500847CF8 /* HabitLogView.swift */,
+				3022EB0F2FE6B21500847CF8 /* HabitLogViewModel.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		3022EB152FE6B21500847CF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB112FE6B21500847CF8 /* DailyPlanView.swift */,
+				3022EB122FE6B21500847CF8 /* HomeIllustrations.swift */,
+				3022EB132FE6B21500847CF8 /* HomeView.swift */,
+				3022EB142FE6B21500847CF8 /* HomeWidgets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3022EB172FE6B21500847CF8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB162FE6B21500847CF8 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3022EB1A2FE6B21500847CF8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB182FE6B21500847CF8 /* PrivacyPolicyView.swift */,
+				3022EB192FE6B21500847CF8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3022EB1E2FE6B21500847CF8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB1B2FE6B21500847CF8 /* HabitCalendarView.swift */,
+				3022EB1C2FE6B21500847CF8 /* StatsView.swift */,
+				3022EB1D2FE6B21500847CF8 /* WeeklyInsightsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		3022EB212FE6B21500847CF8 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB1F2FE6B21500847CF8 /* TaskTrackerView.swift */,
+				3022EB202FE6B21500847CF8 /* TaskTrackerViewModel.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		3022EB222FE6B21500847CF8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB0D2FE6B21500847CF8 /* Focus */,
+				3022EB102FE6B21500847CF8 /* Habits */,
+				3022EB152FE6B21500847CF8 /* Home */,
+				3022EB172FE6B21500847CF8 /* Onboarding */,
+				3022EB1A2FE6B21500847CF8 /* Settings */,
+				3022EB1E2FE6B21500847CF8 /* Stats */,
+				3022EB212FE6B21500847CF8 /* Tasks */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3022EB262FE6B21500847CF8 /* Illustrations */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB232FE6B21500847CF8 /* focusnest-focus-illustration.png */,
+				3022EB242FE6B21500847CF8 /* focusnest-habits-illustration.png */,
+				3022EB252FE6B21500847CF8 /* focusnest-tasks-illustration.png */,
+			);
+			path = Illustrations;
+			sourceTree = "<group>";
+		};
+		3022EB282FE6B21500847CF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB262FE6B21500847CF8 /* Illustrations */,
+				3022EB272FE6B21500847CF8 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3022EB2A2FE6B21500847CF8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB292FE6B21500847CF8 /* CustomCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3022EB2D2FE6B21500847CF8 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB2B2FE6B21500847CF8 /* AppVisualStyle.swift */,
+				3022EB2C2FE6B21500847CF8 /* DesignComponents.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3022EB332FE6B21500847CF8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB2A2FE6B21500847CF8 /* Cells */,
+				3022EB2D2FE6B21500847CF8 /* Design */,
+				3022EB2E2FE6B21500847CF8 /* AchievementBannerView.swift */,
+				3022EB2F2FE6B21500847CF8 /* AppBackgroundView.swift */,
+				3022EB302FE6B21500847CF8 /* CustomTabBar.swift */,
+				3022EB312FE6B21500847CF8 /* ShakeEffect.swift */,
+				3022EB322FE6B21500847CF8 /* SuccessCheckmarkOverlay.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3022EB352FE6B21500847CF8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB332FE6B21500847CF8 /* Components */,
+				3022EB342FE6B21500847CF8 /* MainTabView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3022EB3F2FE6B21500847CF8 /* 221TundraAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				3022EB092FE6B21500847CF8 /* Core */,
+				3022EB222FE6B21500847CF8 /* Features */,
+				3022EB282FE6B21500847CF8 /* Resources */,
+				3022EB352FE6B21500847CF8 /* UI */,
+				3022EB362FE6B21500847CF8 /* AppDelegate.swift */,
+				3022EB372FE6B21500847CF8 /* Assets.xcassets */,
+				3022EB382FE6B21500847CF8 /* ContentView.swift */,
+				3022EB392FE6B21500847CF8 /* Info.plist */,
+				3022EB3B2FE6B21500847CF8 /* LaunchScreen.storyboard */,
+				3022EB3D2FE6B21500847CF8 /* Main.storyboard */,
+				3022EB3E2FE6B21500847CF8 /* SceneDelegate.swift */,
+			);
+			path = 221TundraAssembly;
+			sourceTree = "<group>";
+		};
+		5BE7531F213AD960A07D2A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2452F70ABA04BA34BE891BA /* Pods_221TundraAssembly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +360,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3022E9C72FE5837000847CF8 /* Build configuration list for PBXNativeTarget "221TundraAssembly" */;
 			buildPhases = (
+				BA12DBF009EA3CCCE5C0A2F4 /* [CP] Check Pods Manifest.lock */,
 				3022E9B02FE5837000847CF8 /* Sources */,
 				3022E9B12FE5837000847CF8 /* Frameworks */,
 				3022E9B22FE5837000847CF8 /* Resources */,
@@ -73,12 +369,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				3022E9B62FE5837000847CF8 /* 221TundraAssembly */,
-			);
 			name = 221TundraAssembly;
-			packageProductDependencies = (
-			);
 			productName = 221TundraAssembly;
 			productReference = 3022E9B42FE5837000847CF8 /* 221TundraAssembly.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +390,7 @@
 				};
 			};
 			buildConfigurationList = 3022E9AF2FE5837000847CF8 /* Build configuration list for PBXProject "221TundraAssembly" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +398,6 @@
 				Base,
 			);
 			mainGroup = 3022E9AB2FE5837000847CF8;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3022E9B52FE5837000847CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +412,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3022EB402FE6B21500847CF8 /* focusnest-focus-illustration.png in Resources */,
+				3022EB412FE6B21500847CF8 /* focusnest-habits-illustration.png in Resources */,
+				3022EB422FE6B21500847CF8 /* focusnest-tasks-illustration.png in Resources */,
+				3022EB432FE6B21500847CF8 /* privacy_policy.md in Resources */,
+				3022EB442FE6B21500847CF8 /* Assets.xcassets in Resources */,
+				3022EB462FE6B21500847CF8 /* LaunchScreen.storyboard in Resources */,
+				3022EB472FE6B21500847CF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA12DBF009EA3CCCE5C0A2F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-221TundraAssembly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3022E9B02FE5837000847CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3022EB482FE6B21500847CF8 /* AchievementDefinition.swift in Sources */,
+				3022EB492FE6B21500847CF8 /* FocusSessionRecord.swift in Sources */,
+				3022EB4A2FE6B21500847CF8 /* HabitItem.swift in Sources */,
+				3022EB4B2FE6B21500847CF8 /* TaskItem.swift in Sources */,
+				3022EB4C2FE6B21500847CF8 /* AppStorage.swift in Sources */,
+				3022EB4D2FE6B21500847CF8 /* AppExternalLink.swift in Sources */,
+				3022EB4E2FE6B21500847CF8 /* AppIllustration.swift in Sources */,
+				3022EB4F2FE6B21500847CF8 /* FeedbackManager.swift in Sources */,
+				3022EB502FE6B21500847CF8 /* HabitScheduleHelper.swift in Sources */,
+				3022EB512FE6B21500847CF8 /* NotificationNames.swift in Sources */,
+				3022EB522FE6B21500847CF8 /* FocusCycleView.swift in Sources */,
+				3022EB532FE6B21500847CF8 /* FocusCycleViewModel.swift in Sources */,
+				3022EB542FE6B21500847CF8 /* FocusSessionSheets.swift in Sources */,
+				3022EB552FE6B21500847CF8 /* HabitLogView.swift in Sources */,
+				3022EB562FE6B21500847CF8 /* HabitLogViewModel.swift in Sources */,
+				3022EB572FE6B21500847CF8 /* DailyPlanView.swift in Sources */,
+				3022EB582FE6B21500847CF8 /* HomeIllustrations.swift in Sources */,
+				3022EB592FE6B21500847CF8 /* HomeView.swift in Sources */,
+				3022EB5A2FE6B21500847CF8 /* HomeWidgets.swift in Sources */,
+				3022EB5B2FE6B21500847CF8 /* OnboardingView.swift in Sources */,
+				3022EB5C2FE6B21500847CF8 /* PrivacyPolicyView.swift in Sources */,
+				3022EB5D2FE6B21500847CF8 /* SettingsView.swift in Sources */,
+				3022EB5E2FE6B21500847CF8 /* HabitCalendarView.swift in Sources */,
+				3022EB5F2FE6B21500847CF8 /* StatsView.swift in Sources */,
+				3022EB602FE6B21500847CF8 /* WeeklyInsightsView.swift in Sources */,
+				3022EB612FE6B21500847CF8 /* TaskTrackerView.swift in Sources */,
+				3022EB622FE6B21500847CF8 /* TaskTrackerViewModel.swift in Sources */,
+				3022EB632FE6B21500847CF8 /* CustomCells.swift in Sources */,
+				3022EB642FE6B21500847CF8 /* AppVisualStyle.swift in Sources */,
+				3022EB652FE6B21500847CF8 /* DesignComponents.swift in Sources */,
+				3022EB662FE6B21500847CF8 /* AchievementBannerView.swift in Sources */,
+				3022EB672FE6B21500847CF8 /* AppBackgroundView.swift in Sources */,
+				3022EB682FE6B21500847CF8 /* CustomTabBar.swift in Sources */,
+				3022EB692FE6B21500847CF8 /* ShakeEffect.swift in Sources */,
+				3022EB6A2FE6B21500847CF8 /* SuccessCheckmarkOverlay.swift in Sources */,
+				3022EB6B2FE6B21500847CF8 /* MainTabView.swift in Sources */,
+				3022EB6C2FE6B21500847CF8 /* AppDelegate.swift in Sources */,
+				3022EB6D2FE6B21500847CF8 /* ContentView.swift in Sources */,
+				3022EB6E2FE6B21500847CF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		3022EB3B2FE6B21500847CF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3022EB3A2FE6B21500847CF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3022EB3D2FE6B21500847CF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3022EB3C2FE6B21500847CF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		3022E9C82FE5837000847CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2A96569985749D1C2CF017 /* Pods-221TundraAssembly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +528,39 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 221TundraAssembly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tundra Assembly";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-21TundraAssembly";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hav.t8ndr29ss3mbl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3022E9C92FE5837000847CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C0107DD96FE919FB5E5710E /* Pods-221TundraAssembly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +568,33 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 221TundraAssembly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tundra Assembly";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-21TundraAssembly";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hav.t8ndr29ss3mbl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

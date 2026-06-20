@@ -1,0 +1,6 @@
+framework module Pods_221TundraAssembly {
+  umbrella header "Pods-221TundraAssembly-umbrella.h"
+
+  export *
+  module * { export * }
+}
